@@ -1,0 +1,24 @@
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+@media only screen and (min-width: 550px) {
+    #about div{
+        max-width: 500px;
+        min-width: 300px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #about img{
+        width: 200px;
+    }
+    #about div{
+        width: 80%;
+        text-align: center;
+    }
+}

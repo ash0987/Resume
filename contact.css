@@ -1,0 +1,26 @@
+
+#link ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+#link ul li{
+    height: 73px;
+    width: 73px;
+    text-align: center;
+    border-radius: 39px;
+
+}
+
+#link ul li:hover,#link ul li:focus{
+    background: dimgrey;
+}
+
+#link ul li a{
+    font-size: 53px;
+    color: white;
+}
